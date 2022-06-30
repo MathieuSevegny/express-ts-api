@@ -21,5 +21,5 @@ https
     cert: readFileSync("certs/cert.pem"),
   },app)
   .listen(port, ()=>{
-    console.log(`server is runing at port ${port}`)
+    console.log(`server is running at port ${port}`)
   });
